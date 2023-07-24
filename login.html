@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Material Design for Bootstrap</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+  <!-- MDB -->
+  <link rel="stylesheet" href="css/bootstrap-login-form.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+
+  <link rel="stylesheet" href="css/aos.css">
+
+  <link rel="stylesheet" href="css/ionicons.min.css">
+
+  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+  <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+
+  <link rel="stylesheet" href="css/flaticon.css">
+  <link rel="stylesheet" href="css/icomoon.css">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* Personalize o estilo aqui */
+    .card-body {
+      font-size: 20px;
+      width: 95%;
+      margin: 30px auto;
+    }
+
+    .form-control {
+      height: 100px;
+      font-size: 16px;
+    }
+
+    .btn-primary {
+      font-size: 12px;
+    }
+
+    .navbar {
+      border: none !important;
+    }
+
+    .navbar-nav .nav-link {
+      border: none !important;
+    }
+
+    /* Classe para animação de slide */
+    .slideInLeft {
+      animation-name: slideInLeft;
+      animation-duration: 1s;
+    }
+
+    @keyframes slideInLeft {
+      0% {
+        transform: translateX(-100%);
+        opacity: 0;
+      }
+
+      100% {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+  <!-- Start your project here-->
+  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light border-0" id="ftco-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Harbor<span>lights</span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="oi oi-menu"></span> Menu
+      </button>
+
+      <div class="collapse navbar-collapse" id="ftco-nav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active"><a href="../index.html" class="nav-link">Home</a></li>
+          <li class="nav-item active"><a href="#" class="nav-link" style="color: rgb(210, 30, 30);">Sou assinante</a></li>
+          <li class="nav-item active"><a href="#" class="nav-link">Entrar para o clube</a></li>
+          <li class="nav-item"><a href="../rooms.html" class="nav-link">Our Rooms</a></li>
+          <li class="nav-item"><a href="../restaurant.html" class="nav-link">Restaurant</a></li>
+          <li class="nav-item"><a href="../about.html" class="nav-link">Sobre nós</a></li>
+          <li class="nav-item"><a href="../blog.html" class="nav-link">Blog</a></li>
+          <li class="nav-item"><a href="../contact.html" class="nav-link">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Start your project here-->
+
+
+  <section class="vh-100" style="background-image: url(images/bg_3.jpg); background-size: cover; background-position: center;">
+    <div class="container py-5 h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+          <div class="card shadow-2-strong slideInLeft" style="border-radius: 1rem;">
+            <div class="card-body p-3 text-center">
+              <!-- Altere o valor de "p-4" para "p-3" para diminuir o espaçamento -->
+              <h3 class="mb-3">Sign in</h3>
+              <!-- Altere o valor de "mb-4" para "mb-3" para diminuir o espaçamento -->
+              <div class="form-outline mb-2">
+                <input type="email" id="typeEmailX-2" class="form-control form-control-lg" />
+                <!-- Altere o tamanho da fonte para diminuir as letras -->
+                <label class="form-label" for="typeEmailX-2" style="font-size: 12px;">Email</label>
+              </div>
+
+              <div class="form-outline mb-2">
+                <input type="password" id="typePasswordX-2" class="form-control form-control-lg" />
+                <!-- Altere o tamanho da fonte para diminuir as letras -->
+                <label class="form-label" for="typePasswordX-2" style="font-size: 12px;">Password</label>
+              </div>
+
+              <!-- Checkbox -->
+              <div class="form-check d-flex justify-content-start mb-1">
+                <input class="form-check-input" type="checkbox" value="" id="form1Example3" />
+                <label class="form-check-label" for="form1Example3"> Remember password </label>
+              </div>
+
+              <button class="btn btn-primary btn-lg btn-block" type="submit">Login</button>
+
+              <hr class="my-2">
+
+              <button class="btn btn-lg btn-block btn-primary" style="background-color: #dd4b39; font-size: 12px;" type="submit">
+                <i class="fab fa-google me-2"></i> Sign in with google
+              </button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End your project here-->
+
+  <!-- MDB -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript"></script>
+</body>
+
+</html>
